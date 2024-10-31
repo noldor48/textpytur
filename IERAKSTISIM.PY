@@ -9,4 +9,4 @@ print("Ievaditi vardi: ")
 with open("vardi.txt", "r", encoding="utf-8") as faila_objekts:
     for rinda in faila_objekts:
         print(rinda.strip())
-        \
+        
