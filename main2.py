@@ -56,8 +56,6 @@ def save_data():
     file = open('organizations.json', 'w')
     json.dump(data, file, indent=4)
 
-
-
 def find_organization_by_id():
     organization_id = input("Ievadiet organizacijas id: ")
     for organization in organizations:
@@ -66,8 +64,16 @@ def find_organization_by_id():
             print(f"{organization['name']}({organization['id']})")
             break
 
+def delit_organization():
+    organization_id = input("Ievadiet organizacijas id kuru gribat izdzest: ")
+    for organization in organizations:
+        if organization["id"] == organization_id:
+            organizations.remove(organization)
+            break
+
 def count_organizations():
     print(len(organizations))
+
 def main():
     count_organizations()
     #load_data()
@@ -80,7 +86,9 @@ def main():
         elif response =="3":
             save_data()
             print("byeeeeeeeeeeeee!")
-            exit() 
+            exit()
+        elif response =="4":
+            delit_organization()
         else:
             print('Chose a number betwen 1 and 3')
             continue

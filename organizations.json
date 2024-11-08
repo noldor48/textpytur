@@ -1,9 +1,15 @@
 {
     "organizations": [
         {
-            "name": "ds",
-            "adress": "ds",
-            "id": "d",
+            "name": "gfgfgfgf",
+            "adress": "fgfgfgfg",
+            "id": "99",
+            "contacts": []
+        },
+        {
+            "name": "sddsdsdsds",
+            "adress": "sddsdsd",
+            "id": "33",
             "contacts": []
         }
     ]
