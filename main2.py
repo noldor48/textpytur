@@ -78,17 +78,17 @@ def main():
     count_organizations()
     #load_data()
     while (True):
-        response=input("(1) Add organisation (2) Print organisations (3) Exit ")
+        response=input("(1) Add organisation (2) Print organisations (3) Izdzest organizaciju (4) Exit ")
         if response=="1":
             add_organization()
         elif response =="2":
             print_organization()
         elif response =="3":
+            delit_organization()
+        elif response =="4":
             save_data()
             print("byeeeeeeeeeeeee!")
             exit()
-        elif response =="4":
-            delit_organization()
         else:
             print('Chose a number betwen 1 and 3')
             continue

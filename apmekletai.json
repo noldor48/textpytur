@@ -1,0 +1,48 @@
+{
+    "dalibnieki": [
+        {
+            "id": 30,
+            "vards": "Zane",
+            "telefons": "29567890",
+            "pilseta": "Jūrmala"
+        },
+        {
+            "id": 1,
+            "vards": "Germans",
+            "telefons": "2121212",
+            "pilseta": "Rezekne",
+            "dvieli": [
+                {
+                    "id": "3",
+                    "daudzums": "2"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "vards": "gERMANS",
+            "telefons": "\t\t2455",
+            "pilseta": "Rīga",
+            "dvieli": [
+                {
+                    "id": "5",
+                    "daudzums": "3"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "vards": "Hīpo",
+            "telefons": "dd",
+            "pilseta": "ddd",
+            "dvieli": []
+        },
+        {
+            "id": "fdfdf",
+            "vards": "Bīo",
+            "telefons": "dfd",
+            "pilseta": "dfdfd",
+            "dvieli": []
+        }
+    ]
+}
