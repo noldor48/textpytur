@@ -43,6 +43,21 @@
             "telefons": "dfd",
             "pilseta": "dfdfd",
             "dvieli": []
+        },
+        {
+            "id": 66,
+            "vards": "ssss",
+            "telefons": "sss",
+            "pilseta": "sss",
+            "apmeklejums": [
+                {
+                    "id": "4",
+                    "daudzums": "5",
+                    "stundas": "6",
+                    "datums": "2024-11-14 09:42:02.257804",
+                    "sporta_veids": "hhhhh"
+                }
+            ]
         }
     ]
 }

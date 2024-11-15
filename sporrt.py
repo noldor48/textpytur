@@ -1,4 +1,5 @@
 import json
+import datetime
 
 vardnica = {}
 
@@ -34,22 +35,24 @@ def pievienot_dalibnieku():
         "vards": name,
         "telefons": telefons,
         "pilseta": pilseta,
-        "dvieli": []}
+        "apmeklejums": []}
     while True:
-        choise = input("Vai vēlaties dvieļi? (y/n)")
+        choise = input("Vai vēlaties registret apmeklejumu? (y/n)")
         if choise =="y":
+            stundas = input("Cik stundas gribat apmeklet sporta zali?: ")
+            sporta_veids = input("Ar kadu sporta veidu jus gribat nodarboties?: ")
             print("1 dvieļa noma maksā 0,50 eiro")
             dvieliz = input("Cik dvieļu gribat panemt: ")
             dvielu_id = input("Dvieļu id:")
-            stundas = input("Cik stundas gribat apmeklet sporta zali?: ")
-            datums = input("Kura datuma gribat apmeklet sporta zali?: ")
+            datums = str(datetime.datetime.now())
             dvielis = {
                 "id":dvielu_id,
                 "daudzums":dvieliz,
                 "stundas":stundas,
-                "datums":datums
+                "datums":datums,
+                "sporta_veids":sporta_veids
             }
-            vardnicaw['dvieli'].append(dvielis)
+            vardnicaw['apmeklejums'].append(dvielis)
         else:
             break
     vardnica.append(vardnicaw)
