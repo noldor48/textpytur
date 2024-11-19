@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "klase": "2.b",
+        "vards": "Nikita",
+        "uzvards": "Pirazkov",
+        "menesis": "Marts",
+        "maksa$": "100"
+    },
+    {
+        "id": "2",
+        "klase": "3.b",
+        "vards": "Rita",
+        "uzvards": "Sinavska",
+        "menesis": "Aprilis",
+        "maksa$": "233"
+    },
+    {
+        "id": "3",
+        "klase": "4.a",
+        "vards": "Germans",
+        "uzvards": "Aliks",
+        "menesis": "Julijs",
+        "maksa$": "334"
+    },
+    {
+        "id": "4",
+        "klase": "4.b",
+        "vards": "Romans",
+        "uzvards": "Bartashevskis",
+        "menesis": "Decembris",
+        "maksa$": "666"
+    },
+    {
+        "id": "5",
+        "klase": "9.a",
+        "vards": "Klara",
+        "uzvards": "Vierova",
+        "menesis": "Februaris",
+        "maksa$": "999"
+    }
+]
